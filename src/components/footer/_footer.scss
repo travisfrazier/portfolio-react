@@ -1,0 +1,31 @@
+.footer {
+  width: 100%;
+  background: #111;
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    color: white;
+  }
+  .social-links {
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    a {
+      display: inline-table;
+      text-align: center;
+      height: 35px;
+      width: 35px;
+      color: #fff;
+      border-radius: 50%;
+      border: 1px solid white;
+      margin: 0 0.5rem;
+    }
+    i {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+}

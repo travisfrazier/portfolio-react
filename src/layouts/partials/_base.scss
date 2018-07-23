@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans:300,400,700');
+html,
+body {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Open Sans', sans-sefif;
+}
+
+h2 {
+  margin-top: 0rem;
+  font-size: 2.5rem;
+  color: black;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+p {
+  font-weight: 300;
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
