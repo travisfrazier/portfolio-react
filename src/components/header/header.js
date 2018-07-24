@@ -66,7 +66,7 @@ export class Header extends React.Component {
             <i className="fa fa-linkedin" />
           </a>
         </div>
-        <a>
+        <a className="arrow-container">
           <i className="fa fa-angle-double-down arrow" />
         </a>
       </header>

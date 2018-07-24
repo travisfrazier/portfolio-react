@@ -125,12 +125,16 @@ header {
       vertical-align: middle;
     }
   }
+  .arrow-container {
+    display: flex;
+    justify-content: center;
+  }
   .arrow {
     color: #f5f5f5;
     //width: 3rem;
     z-index: 3;
     position: absolute;
-    bottom: 1.5rem;
+    bottom: 1rem;
     font-size: 2rem;
   }
 }
