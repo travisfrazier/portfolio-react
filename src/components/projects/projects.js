@@ -115,7 +115,10 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a href="https://codepen.io/travisfrazier/live/bKyzep" target="_blank">
+        <a
+          href="https://codepen.io/travisfrazier/project/live/AwzEMk/"
+          target="_blank"
+        >
           <img src={require('../../images/projects/weather.png')} />
           <div className="project-inner">
             <div className="project-info">
