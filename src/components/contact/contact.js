@@ -9,7 +9,7 @@ export const Contact = () => (
       looking to relocate.
     </p>
     <div className="form-wrapper">
-      <form method="POST" netlify>
+      <form method="POST" data-netlify="true">
         <div>
           <div>
             <input
