@@ -34,7 +34,7 @@ export const Contact = () => (
               id="massage"
               name="massage"
               required
-              placeholder="Your Massage*"
+              placeholder="Your Message*"
             />
           </div>
           <div className="button-wrapper">
