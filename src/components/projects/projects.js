@@ -4,6 +4,11 @@ import './_projects.scss'
 export const Projects = () => (
   <section id="projects" className="projects">
     <h2>My Latest Projects</h2>
+    <p className="project-disclaimer">
+      *Projects below were built by me without the use of Bootstrap or jQuery.
+      Hover each for a description, they are fully responsive with media
+      queries.
+    </p>
     <div className="projects_container">
       {/* Project Item ---------- */}
       <div className="project project-two">
@@ -149,7 +154,7 @@ export const Projects = () => (
               <h3>My Portfolio Site</h3>
               <p>
                 Designed and Developed following a pre-built design. Built with:
-                React, Gatsby.js, and SASS.
+                React, Gatsby.js, SASS/CSS3(Grid and Flexbox).
               </p>
               <span>View Site</span>
             </div>
