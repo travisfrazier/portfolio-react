@@ -68,8 +68,7 @@ export const Projects = () => (
               <h3>Social Enneagram</h3>
               <p>
                 Designed and Developed freelance client website (work in
-                progress). Built with: Gatsby.js/React (static site generator
-                for React) and SASS.
+                progress). Built with: React, Gatsby.js, and SASS.
               </p>
               <span>View Site</span>
             </div>
@@ -143,14 +142,14 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a href="https://travisfrazier.github.io/ethanjones/" target="_blank">
-          <img src={require('../../images/projects/ethan.png')} />
+        <a href="https://travisfrazier.me" target="_blank">
+          <img src={require('../../images/projects/me.png')} />
           <div className="project-inner">
             <div className="project-info">
-              <h3>Ethan Jones</h3>
+              <h3>My Portfolio Site</h3>
               <p>
-                Designed and Developed freelance client website. Built with:
-                HTML5, CSS3, Bootstrap 4, and jQuery.
+                Designed and Developed following a pre-built design. Built with:
+                React, Gatsby.js, and SASS.
               </p>
               <span>View Site</span>
             </div>
