@@ -66,7 +66,7 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a href="https://socialenneagram.netlify.com" target="_blank">
+        <a href="https://socialenneagram.com" target="_blank">
           <img src={require('../../images/projects/enneagram.png')} />
           <div className="project-inner">
             <div className="project-info">
