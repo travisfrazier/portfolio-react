@@ -7,12 +7,16 @@ export class Header extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      class: 'block',
+      showMenu: false,
     }
   }
 
   toggleMenu = () => {
-    this.menu.classList.toggle('block')
+    this.setState(prevState => {
+      return {
+        showMenu: !prevState.showMenu,
+      }
+    })
   }
 
   render() {
@@ -25,7 +29,7 @@ export class Header extends React.Component {
             src={require('../../images/menu.png')}
           />
         </figure>
-        <nav ref={nav => (this.menu = nav)}>
+        <nav className={this.state.showMenu ? 'block' : ''}>
           <ul>
             <li>
               <a href="#home">Home</a>

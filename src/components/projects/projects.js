@@ -6,7 +6,7 @@ export const Projects = () => (
     <h2>My Latest Projects</h2>
     <p className="project-disclaimer">
       *Projects below were built by me without the use of Bootstrap or jQuery.
-      Hover each for a description, they are fully responsive with media
+      Hover each for a description. They are fully responsive with media
       queries.
     </p>
     <div className="projects_container">
