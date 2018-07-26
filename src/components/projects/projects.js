@@ -156,8 +156,8 @@ export const Projects = () => (
             <div className="project-info">
               <h3>My Portfolio Site</h3>
               <p>
-                Designed and Developed following a pre-built design. Built with:
-                React, Gatsby.js, SASS/CSS3(Grid and Flexbox).
+                Developed following a design spec. Built with: React, Gatsby.js,
+                SASS/CSS3.
               </p>
               <span>View Site</span>
             </div>
