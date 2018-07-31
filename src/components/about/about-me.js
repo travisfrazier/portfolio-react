@@ -15,7 +15,7 @@ export const AboutMe = () => (
           Biologist.
         </p>
         <p>
-          I am passionate about creating modern design for web and mobile. My
+          I am passionate about creating user interfaces for web and mobile. My
           strengths include HTML5, SASS, and JavaScript. I also enjoy the
           challenge of writing my own CSS without the use of Bootstrap and I am
           very comfortable manipulating the DOM with vanilla JavaScript.
