@@ -7,7 +7,7 @@ export const AboutMe = () => (
       <h2>About Me</h2>
     </div>
     <div className="about-content">
-      <img src={require('../../images/me.jpg')} />
+      <img className="profile-img" src={require('../../images/me.jpg')} />
       <div className="about-description">
         <p>
           I am <ins>Travis Frazier</ins>. Front-end Developer. Musician.
