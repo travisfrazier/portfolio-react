@@ -66,6 +66,22 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
+        <a href="https://crosstalk.church" target="_blank">
+          <img src={require('../../images/projects/crosstalk.png')} />
+          <div className="project-inner">
+            <div className="project-info">
+              <h3>Cross Talk</h3>
+              <p>
+                Designed and Developed freelance client landing page. Built
+                with: ReactJS and SASS.
+              </p>
+              <span>View Site</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      {/* Project Item ---------- */}
+      <div className="project project-two">
         <a href="https://socialenneagram.com" target="_blank">
           <img src={require('../../images/projects/enneagram.png')} />
           <div className="project-inner">
@@ -104,9 +120,9 @@ export const Projects = () => (
             <div className="project-info">
               <h3>Pool Pros</h3>
               <p>
-                Developed demo website following design spec. Built with: HTML5,
-                SASS, and vanilla JavaScript for the modal pop up and mobile
-                navigation dropdown.
+                Developed demo website following design spec. Built with: SASS,
+                vanilla JavaScript for the modal pop up and mobile navigation
+                dropdown, and HTML5.
               </p>
               <span>View Site</span>
             </div>
@@ -125,7 +141,7 @@ export const Projects = () => (
               <h3>Weather App</h3>
               <p>
                 Designed and Developed a single page weather app. Built with:
-                vanilla JavaScript, Fetch API, SASS, and HTML5.
+                vanilla JavaScript, Fetch API, and SASS.
               </p>
               <span>View Site</span>
             </div>
@@ -142,22 +158,6 @@ export const Projects = () => (
               <p>
                 Developed demo product launch page. Built with: vanilla
                 JavaScript for the image slider and modal, CSS3, and HTML5.
-              </p>
-              <span>View Site</span>
-            </div>
-          </div>
-        </a>
-      </div>
-      {/* Project Item ---------- */}
-      <div className="project project-two">
-        <a href="https://travisfrazier.me" target="_blank">
-          <img src={require('../../images/projects/me.png')} />
-          <div className="project-inner">
-            <div className="project-info">
-              <h3>My Portfolio Site</h3>
-              <p>
-                Developed following a design spec. Built with: React, Gatsby.js,
-                SASS/CSS3.
               </p>
               <span>View Site</span>
             </div>
