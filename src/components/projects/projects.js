@@ -1,5 +1,5 @@
-import React from 'react'
-import './_projects.scss'
+import React from 'react';
+import './_projects.scss';
 
 export const Projects = () => (
   <section id="projects" className="projects">
@@ -82,6 +82,22 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
+        <a href="https://codepen.io/travisfrazier/full/bKyzep/" target="_blank">
+          <img src={require('../../images/projects/weather.png')} />
+          <div className="project-inner">
+            <div className="project-info">
+              <h3>Vanilla JS Weather App</h3>
+              <p>
+                Designed and Developed a single page weather app. Built with:
+                vanilla JavaScript, Fetch API, and SASS.
+              </p>
+              <span>View Site</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      {/* Project Item ---------- */}
+      <div className="project project-two">
         <a href="https://socialenneagram.com" target="_blank">
           <img src={require('../../images/projects/enneagram.png')} />
           <div className="project-inner">
@@ -123,25 +139,6 @@ export const Projects = () => (
                 Developed demo website following design spec. Built with: SASS,
                 vanilla JavaScript for the modal pop up and mobile navigation
                 dropdown, and HTML5.
-              </p>
-              <span>View Site</span>
-            </div>
-          </div>
-        </a>
-      </div>
-      {/* Project Item ---------- */}
-      <div className="project project-two">
-        <a
-          href="https://codepen.io/travisfrazier/full/bKyzep/"
-          target="_blank"
-        >
-          <img src={require('../../images/projects/weather.png')} />
-          <div className="project-inner">
-            <div className="project-info">
-              <h3>Vanilla JS Weather App</h3>
-              <p>
-                Designed and Developed a single page weather app. Built with:
-                vanilla JavaScript, Fetch API, and SASS.
               </p>
               <span>View Site</span>
             </div>
