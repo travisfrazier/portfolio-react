@@ -138,7 +138,7 @@ export const Projects = () => (
           <img src={require('../../images/projects/weather.png')} />
           <div className="project-inner">
             <div className="project-info">
-              <h3>Weather App</h3>
+              <h3>Vanilla JS Weather App</h3>
               <p>
                 Designed and Developed a single page weather app. Built with:
                 vanilla JavaScript, Fetch API, and SASS.
