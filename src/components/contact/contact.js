@@ -5,8 +5,7 @@ export const Contact = () => (
   <section id="contact">
     <h2>Let's Chat</h2>
     <p className="relocate">
-      I'm currently based in North Carolina, available for full-time work and
-      looking to relocate.
+      I'm currently based in San Diego, CA and I'm available for full-time work.
     </p>
     <div className="form-wrapper">
       <form method="POST" data-netlify="true">
