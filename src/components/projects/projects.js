@@ -19,7 +19,7 @@ export const Projects = () => (
               <h3>Cardinal</h3>
               <p>
                 Developed website following design spec. Built with: SASS,
-                HTML5, and vanilla JavaScript.
+                HTML5, and Vanilla JavaScript.
               </p>
               <span>View Site</span>
             </div>
@@ -38,7 +38,7 @@ export const Projects = () => (
               <h3>Vanilla JS Drum Pad</h3>
               <p>
                 Designed and Developed a single page drum pad application. Built
-                with: vanilla JavaScript, CSS3, and HTML5.
+                with: Vanilla JavaScript, CSS3, and HTML5.
               </p>
               <span>View Site</span>
             </div>
@@ -57,7 +57,7 @@ export const Projects = () => (
               <h3>React List App</h3>
               <p>
                 Designed and Developed a single page to-do app. Built with:
-                React.js and SASS.
+                ReactJS and SASS.
               </p>
               <span>View Site</span>
             </div>
@@ -89,7 +89,7 @@ export const Projects = () => (
               <h3>Vanilla JS Weather App</h3>
               <p>
                 Designed and Developed a single page weather app. Built with:
-                vanilla JavaScript, Fetch API, and SASS.
+                Vanilla JavaScript, Fetch API, and SASS.
               </p>
               <span>View Site</span>
             </div>
@@ -105,7 +105,7 @@ export const Projects = () => (
               <h3>Social Enneagram</h3>
               <p>
                 Designed and Developed freelance client website (work in
-                progress). Built with: React, Gatsby.js, and SASS.
+                progress). Built with: ReactJS and SASS.
               </p>
               <span>View Site</span>
             </div>
@@ -137,7 +137,7 @@ export const Projects = () => (
               <h3>Pool Pros</h3>
               <p>
                 Developed demo website following design spec. Built with: SASS,
-                vanilla JavaScript for the modal pop up and mobile navigation
+                Vanilla JavaScript for the modal pop up and mobile navigation
                 dropdown, and HTML5.
               </p>
               <span>View Site</span>
@@ -153,7 +153,7 @@ export const Projects = () => (
             <div className="project-info">
               <h3>Fotomatic</h3>
               <p>
-                Developed demo product launch page. Built with: vanilla
+                Developed demo product launch page. Built with: Vanilla
                 JavaScript for the image slider and modal, CSS3, and HTML5.
               </p>
               <span>View Site</span>
