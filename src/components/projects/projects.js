@@ -147,7 +147,7 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a href="https://codepen.io/travisfrazier/live/gBPNBR" target="_blank">
+        <a href="https://travisfrazier.github.io/matchgame/" target="_blank">
           <img src={require('../../images/projects/guess.png')} />
           <div className="project-inner">
             <div className="project-info">
