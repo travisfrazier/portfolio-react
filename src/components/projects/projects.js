@@ -147,14 +147,14 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a href="https://travisfrazier.github.io/fotomatic/" target="_blank">
-          <img src={require('../../images/projects/fotomatic.png')} />
+        <a href="https://codepen.io/travisfrazier/live/gBPNBR" target="_blank">
+          <img src={require('../../images/projects/guess.png')} />
           <div className="project-inner">
             <div className="project-info">
-              <h3>Fotomatic</h3>
+              <h3>Vanilla JS Match Game</h3>
               <p>
-                Developed demo product launch page. Built with: Vanilla
-                JavaScript for the image slider and modal, CSS3, and HTML5.
+                Developed this match game application. Built with: Vanilla
+                JavaScript, Bootstrap 4, and custom CSS.
               </p>
               <span>View Site</span>
             </div>
