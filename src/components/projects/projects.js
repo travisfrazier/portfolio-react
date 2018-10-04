@@ -5,7 +5,7 @@ export const Projects = () => (
   <section id="projects" className="projects">
     <h2>My Latest Projects</h2>
     <p className="project-disclaimer">
-      *Projects below were built by me without the use of Bootstrap or jQuery.
+      *Projects below were built by me without the use of jQuery.
       Hover each for a description. They are fully responsive with media
       queries.
     </p>
