@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import profile from '../images/me.jpg'
 
 import './index.scss'
 
@@ -12,10 +13,9 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
+      link={[{ rel: 'shortcut icon', type: 'image/jpg', href: `${profile}` }]}
     />
-    <div>
-      {children()}
-    </div>
+    <div>{children()}</div>
   </div>
 )
 
