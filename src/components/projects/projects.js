@@ -98,11 +98,11 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a href="https://socialenneagram.com" target="_blank">
-          <img src={require('../../images/projects/enneagram.png')} />
+        <a href="https://emanate.netlify.com" target="_blank">
+          <img src={require('../../images/projects/emanate.png')} />
           <div className="project-inner">
             <div className="project-info">
-              <h3>Social Enneagram</h3>
+              <h3>Emanate Summit</h3>
               <p>
                 Designed and Developed freelance client website (work in
                 progress). Built with: ReactJS and SASS.
