@@ -10,7 +10,7 @@ export const Contact = () => (
     <div className="form-wrapper">
       <form method="POST" data-netlify="true">
         <div>
-          <div>
+          <div className="input-container">
             <input
               type="text"
               name="name"
@@ -19,7 +19,7 @@ export const Contact = () => (
               placeholder="Your Name*"
             />
           </div>
-          <div>
+          <div className="input-container">
             <input
               type="email"
               name="email"
@@ -28,7 +28,7 @@ export const Contact = () => (
               placeholder="Your Email*"
             />
           </div>
-          <div>
+          <div className="input-container">
             <textarea
               id="massage"
               name="massage"

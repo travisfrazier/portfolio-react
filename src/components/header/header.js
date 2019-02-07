@@ -57,7 +57,7 @@ export class Header extends React.Component {
         </h1>
         <p>creating modern and responsive design for web and mobile.</p>
         <div className="social-links">
-          <a href="https://www.instagram.com/travisf7/">
+          <a href="https://www.instagram.com/travfrazier/">
             <i className="fa fa-instagram" />
           </a>
           <a href="https://www.facebook.com/travisfrazier7">

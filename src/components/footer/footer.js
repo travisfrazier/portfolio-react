@@ -6,7 +6,7 @@ export const Footer = () => (
   <footer className="footer">
     <div className="container">
       <div className="social-links">
-        <a href="https://www.instagram.com/travisf7/">
+        <a href="https://www.instagram.com/travfrazier/">
           <i className="fa fa-instagram" />
         </a>
         <a href="https://www.facebook.com/travisfrazier7">
@@ -19,7 +19,7 @@ export const Footer = () => (
           <i className="fa fa-linkedin" />
         </a>
       </div>
-      <p>Copyright © Travis Frazier 2018.</p>
+      <p>Copyright © Travis Frazier 2019.</p>
     </div>
   </footer>
 )
