@@ -1,15 +1,62 @@
-import React from 'react';
-import './_projects.scss';
+import React from 'react'
+import './_projects.scss'
 
 export const Projects = () => (
   <section id="projects" className="projects">
     <h2>My Latest Projects</h2>
     <p className="project-disclaimer">
-      *Projects below were built by me without the use of jQuery.
-      Hover each for a description. They are fully responsive with media
-      queries.
+      *Projects below were built by me without the use of jQuery. Hover each for
+      a description. They are fully responsive with media queries.
     </p>
     <div className="projects_container">
+      {/* Project Item ---------- */}
+      <div className="project project-two">
+        <a href="https://emanate.netlify.com" target="_blank">
+          <img src={require('../../images/projects/emanate.png')} />
+          <div className="project-inner">
+            <div className="project-info">
+              <h3>Emanate Summit</h3>
+              <p>
+                Designed and Developed freelance client website (work in
+                progress). Built with: ReactJS and SASS.
+              </p>
+              <span>View Site</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      {/* Project Item ---------- */}
+      <div className="project project-two">
+        <a href="https://reactlistapp.netlify.com" target="_blank">
+          <img src={require('../../images/projects/list.png')} />
+          <div className="project-inner">
+            <div className="project-info">
+              <h3>React List App</h3>
+              <p>
+                Designed and Developed a single page to-do app. Built with:
+                ReactJS and SASS.
+              </p>
+              <span>View Site</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      {/* Project Item ---------- */}
+      <div className="project project-two">
+        <a href="https://codepen.io/travisfrazier/full/bKyzep/" target="_blank">
+          <img src={require('../../images/projects/weather.png')} />
+          <div className="project-inner">
+            <div className="project-info">
+              <h3>Vanilla JS Weather App</h3>
+              <p>
+                Designed and Developed a single page weather app. Built with:
+                Vanilla JavaScript, Fetch API, and SASS.
+              </p>
+              <span>View Site</span>
+            </div>
+          </div>
+        </a>
+      </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
         <a href="https://travisfrazier.github.io/cardinal/" target="_blank">
@@ -47,25 +94,6 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a
-          href="https://reactlistapp.netlify.com"
-          target="_blank"
-        >
-          <img src={require('../../images/projects/list.png')} />
-          <div className="project-inner">
-            <div className="project-info">
-              <h3>React List App</h3>
-              <p>
-                Designed and Developed a single page to-do app. Built with:
-                ReactJS and SASS.
-              </p>
-              <span>View Site</span>
-            </div>
-          </div>
-        </a>
-      </div>
-      {/* Project Item ---------- */}
-      <div className="project project-two">
         <a href="https://crosstalk.church" target="_blank">
           <img src={require('../../images/projects/crosstalk.png')} />
           <div className="project-inner">
@@ -74,38 +102,6 @@ export const Projects = () => (
               <p>
                 Designed and Developed freelance client landing page. Built
                 with: ReactJS and SASS.
-              </p>
-              <span>View Site</span>
-            </div>
-          </div>
-        </a>
-      </div>
-      {/* Project Item ---------- */}
-      <div className="project project-two">
-        <a href="https://codepen.io/travisfrazier/full/bKyzep/" target="_blank">
-          <img src={require('../../images/projects/weather.png')} />
-          <div className="project-inner">
-            <div className="project-info">
-              <h3>Vanilla JS Weather App</h3>
-              <p>
-                Designed and Developed a single page weather app. Built with:
-                Vanilla JavaScript, Fetch API, and SASS.
-              </p>
-              <span>View Site</span>
-            </div>
-          </div>
-        </a>
-      </div>
-      {/* Project Item ---------- */}
-      <div className="project project-two">
-        <a href="https://emanate.netlify.com" target="_blank">
-          <img src={require('../../images/projects/emanate.png')} />
-          <div className="project-inner">
-            <div className="project-info">
-              <h3>Emanate Summit</h3>
-              <p>
-                Designed and Developed freelance client website (work in
-                progress). Built with: ReactJS and SASS.
               </p>
               <span>View Site</span>
             </div>
