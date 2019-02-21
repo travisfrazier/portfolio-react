@@ -63,7 +63,7 @@ export const Projects = () => (
           <img src={require('../../images/projects/mimosas.png')} />
           <div className="project-inner">
             <div className="project-info">
-              <h3>Cardinal</h3>
+              <h3>Mimosas Nail Bar (work in progress)</h3>
               <p>
                 Developed client website following design spec. Incorporates a Headless CMS for content updates. Built with: SASS,
                 HTML5, Vanilla JavaScript, and Jekyll.
