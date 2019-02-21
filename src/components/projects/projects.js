@@ -11,7 +11,7 @@ export const Projects = () => (
     <div className="projects_container">
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a href="https://emanate.netlify.com" target="_blank">
+        <a href="https://emanatesummit.com" target="_blank">
           <img src={require('../../images/projects/emanate.png')} />
           <div className="project-inner">
             <div className="project-info">
@@ -59,14 +59,14 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a href="https://travisfrazier.github.io/cardinal/" target="_blank">
-          <img src={require('../../images/projects/cardinal.png')} />
+        <a href="https://mimosasnailbars.com" target="_blank">
+          <img src={require('../../images/projects/mimosas.png')} />
           <div className="project-inner">
             <div className="project-info">
               <h3>Cardinal</h3>
               <p>
-                Developed website following design spec. Built with: SASS,
-                HTML5, and Vanilla JavaScript.
+                Developed client website following design spec. Incorporates a Headless CMS for content updates. Built with: SASS,
+                HTML5, Vanilla JavaScript, and Jekyll.
               </p>
               <span>View Site</span>
             </div>
