@@ -66,7 +66,7 @@ export const Projects = () => (
               <h3>Mimosas Nail Bar (work in progress)</h3>
               <p>
                 Developed client website following design spec. Incorporates a Headless CMS for content updates. Built with: SASS,
-                HTML5, Vanilla JavaScript, and Jekyll.
+                HTML5, Vanilla JavaScript, VueJS, and Jekyll.
               </p>
               <span>View Site</span>
             </div>
