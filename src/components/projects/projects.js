@@ -76,16 +76,16 @@ export const Projects = () => (
       {/* Project Item ---------- */}
       <div className="project project-two">
         <a
-          href="https://codepen.io/travisfrazier/project/live/ZdbBJv/"
+          href="https://travisfrazier.github.io/vue-drum-pad/"
           target="_blank"
         >
-          <img src={require('../../images/projects/drum.png')} />
+          <img src={require('../../images/projects/drum-pad.png')} />
           <div className="project-inner">
             <div className="project-info">
-              <h3>Vanilla JS Drum Pad</h3>
+              <h3>VueJS Drum Pad</h3>
               <p>
                 Designed and Developed a single page drum pad application. Built
-                with: Vanilla JavaScript, CSS3, and HTML5.
+                with: VueJS CDN, SASS, and HTML5.
               </p>
               <span>View Site</span>
             </div>
