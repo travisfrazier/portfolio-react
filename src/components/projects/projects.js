@@ -79,7 +79,7 @@ export const Projects = () => (
           href="https://travisfrazier.github.io/vue-drum-pad/"
           target="_blank"
         >
-          <img src={require('../../images/projects/drum-pad.png')} />
+          <img src={require('../../images/projects/mpc-kit.png')} />
           <div className="project-inner">
             <div className="project-info">
               <h3>VueJS Drum Pad</h3>
