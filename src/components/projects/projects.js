@@ -59,7 +59,7 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a href="https://mimosasnailbars.com" target="_blank">
+        <a href="https://themimosasnailbar.com" target="_blank">
           <img src={require('../../images/projects/mimosas-new.png')} />
           <div className="project-inner">
             <div className="project-info">
