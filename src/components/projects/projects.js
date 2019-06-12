@@ -27,14 +27,17 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a href="https://reactlistapp.netlify.com" target="_blank">
-          <img src={require('../../images/projects/list.png')} />
+        <a
+          href="https://travisfrazier.github.io/flashcards-vue/"
+          target="_blank"
+        >
+          <img src={require('../../images/projects/flash.png')} />
           <div className="project-inner">
             <div className="project-info">
-              <h3>React List App</h3>
+              <h3>Vue.js Flash Card App</h3>
               <p>
-                Designed and Developed a single page to-do app. Built with:
-                ReactJS and SASS.
+                Developed single page flash card app. Built with: Vue.js, HTML5,
+                and SASS.
               </p>
               <span>View Site</span>
             </div>
@@ -59,14 +62,14 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a href="https://themimosasnailbar.com" target="_blank">
-          <img src={require('../../images/projects/mimosas-new.png')} />
+        <a href="https://reactlistapp.netlify.com" target="_blank">
+          <img src={require('../../images/projects/list.png')} />
           <div className="project-inner">
             <div className="project-info">
-              <h3>Mimosas Nail Bar (work in progress)</h3>
+              <h3>React.js List App</h3>
               <p>
-                Developed client website following design spec. Incorporates a Headless CMS for content updates. Built with: SASS,
-                HTML5, Vanilla JavaScript, VueJS, and Jekyll.
+                Designed and Developed a single page to-do app. Built with:
+                React.js and SASS.
               </p>
               <span>View Site</span>
             </div>
@@ -75,17 +78,15 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a
-          href="https://travisfrazier.github.io/vue-drum-pad/"
-          target="_blank"
-        >
-          <img src={require('../../images/projects/mpc-kit.png')} />
+        <a href="https://themimosasnailbar.com" target="_blank">
+          <img src={require('../../images/projects/mimosas-new.png')} />
           <div className="project-inner">
             <div className="project-info">
-              <h3>VueJS Drum Pad</h3>
+              <h3>Mimosas Nail Bar (work in progress)</h3>
               <p>
-                Designed and Developed a single page drum pad application. Built
-                with: VueJS CDN, SASS, and HTML5.
+                Developed client website following design spec. Incorporates a
+                Headless CMS for content updates. Built with: SASS, HTML5,
+                Vanilla JavaScript, VueJS, and Jekyll.
               </p>
               <span>View Site</span>
             </div>
@@ -126,15 +127,14 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a href="https://travisfrazier.github.io/pool/" target="_blank">
-          <img src={require('../../images/projects/pool.png')} />
+        <a href="https://travisfrazier.github.io/vue-drum-pad/" target="_blank">
+          <img src={require('../../images/projects/mpc-kit.png')} />
           <div className="project-inner">
             <div className="project-info">
-              <h3>Pool Pros</h3>
+              <h3>Vue.js Drum Pad</h3>
               <p>
-                Developed demo website following design spec. Built with: SASS,
-                Vanilla JavaScript for the modal pop up and mobile navigation
-                dropdown, and HTML5.
+                Designed and Developed a single page drum pad application. Built
+                with: Vue.js CDN, SASS, and HTML5.
               </p>
               <span>View Site</span>
             </div>

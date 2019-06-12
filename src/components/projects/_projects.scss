@@ -1,5 +1,5 @@
 .projects {
-  background-color: #e2e2e2;
+  background-color: #212121;
   padding-bottom: 3rem;
 }
 
@@ -23,7 +23,7 @@ a {
   width: 100.1%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #118aafe0;
+  background-color: #3e50b4e1;
 }
 
 .project {
@@ -49,12 +49,15 @@ a {
       color: white;
     }
     p {
-      color: white;
+      color: #ffffffce;
       width: 90%;
       margin-right: auto;
       margin-left: auto;
       font-weight: 500;
       line-height: 1.5;
+    }
+    span {
+      color: #ffffff;
     }
   }
 }
@@ -65,6 +68,7 @@ a {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+  color: #ffffff8e;
 }
 
 .project:hover img {

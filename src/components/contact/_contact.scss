@@ -4,6 +4,11 @@
   margin-right: auto;
   margin-left: auto;
   width: 90%;
+  color: #ffffffb9;
+}
+
+#contact {
+  background: #424242;
 }
 
 .form-wrapper {
@@ -41,6 +46,7 @@ form {
     background: none;
     border: 1.25px solid black;
     border-radius: 10px;
+    color: #ffffff;
   }
   input {
     height: 3.25rem;
@@ -59,7 +65,7 @@ form {
     height: 3.25rem;
     border: none;
     border-radius: 5px;
-    background-color: #118aaf;
+    background-color: #ff3f80;
     color: white;
     font-size: 1.25rem;
     margin-top: 1rem;

@@ -16,7 +16,7 @@ export const Contact = () => (
               name="name"
               id="name"
               required
-              placeholder="Your Name*"
+              placeholder="Name*"
             />
           </div>
           <div className="input-container">
@@ -25,7 +25,7 @@ export const Contact = () => (
               name="email"
               id="email"
               required
-              placeholder="Your Email*"
+              placeholder="Email*"
             />
           </div>
           <div className="input-container">
@@ -33,7 +33,7 @@ export const Contact = () => (
               id="massage"
               name="massage"
               required
-              placeholder="Your Message*"
+              placeholder="Message*"
             />
           </div>
           <div className="button-wrapper">

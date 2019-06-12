@@ -50,7 +50,7 @@ header {
             color: #f5f5f5;
           }
           &:hover {
-            color: #118aaf;
+            color: #ff3f80;
             //border-bottom: 1px solid #118aaf;
           }
         }
@@ -79,7 +79,7 @@ header {
   }
   //end
   .layer {
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: #000000ab;
     position: absolute;
     top: 0;
     left: 0;
@@ -128,12 +128,14 @@ header {
       width: 35px;
       color: #fff;
       border-radius: 50%;
-      border: 1px solid white;
+      border: 1px solid #3e50b4;
       margin: 0 0.5rem;
     }
     i {
       display: table-cell;
       vertical-align: middle;
+      color: #3e50b4;
+      text-shadow: 2px 2px 10px black;
     }
   }
   .arrow-container {
@@ -141,7 +143,7 @@ header {
     justify-content: center;
   }
   .arrow {
-    color: #f5f5f5;
+    color: #ffffffcb;
     //width: 3rem;
     z-index: 3;
     position: absolute;

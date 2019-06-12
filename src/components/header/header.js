@@ -51,7 +51,9 @@ export class Header extends React.Component {
           </ul>
         </nav>
         <div className="layer" />
-        <p>Hello, My name is Travis Frazier and</p>
+        <p>
+          Hello, My name is <strong className="name">Travis Frazier</strong> and
+        </p>
         <h1>
           <strong>I'M A FRONT-END WEB DEVELOPER</strong>
         </h1>
