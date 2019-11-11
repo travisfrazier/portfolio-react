@@ -95,14 +95,14 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a href="https://crosstalk.church" target="_blank">
-          <img src={require('../../images/projects/crosstalk.png')} />
+        <a href="https://movie-sales.netlify.com/" target="_blank">
+          <img src={require('../../images/projects/sales.png')} />
           <div className="project-inner">
             <div className="project-info">
               <h3>Cross Talk</h3>
               <p>
-                Designed and Developed freelance client landing page. Built
-                with: ReactJS and SASS.
+                Designed and Developed movie sales mock app. Built
+                with: ReactJS and SASS. Incorporates the Recharts composable charting library.
               </p>
               <span>View Site</span>
             </div>
