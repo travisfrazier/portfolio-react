@@ -78,55 +78,6 @@ export const Projects = () => (
       </div>
       {/* Project Item ---------- */}
       <div className="project project-two">
-        <a href="https://themimosasnailbar.com" target="_blank">
-          <img src={require('../../images/projects/mimosas-new.png')} />
-          <div className="project-inner">
-            <div className="project-info">
-              <h3>Mimosas Nail Bar (work in progress)</h3>
-              <p>
-                Developed client website following design spec. Incorporates a
-                Headless CMS for content updates. Built with: SASS, HTML5,
-                Vanilla JavaScript, VueJS, and Jekyll.
-              </p>
-              <span>View Site</span>
-            </div>
-          </div>
-        </a>
-      </div>
-      {/* Project Item ---------- */}
-      <div className="project project-two">
-        <a href="https://movie-sales.netlify.com/" target="_blank">
-          <img src={require('../../images/projects/sales.png')} />
-          <div className="project-inner">
-            <div className="project-info">
-              <h3>Cross Talk</h3>
-              <p>
-                Designed and Developed movie sales mock app. Built
-                with: ReactJS and SASS. Incorporates the Recharts composable charting library.
-              </p>
-              <span>View Site</span>
-            </div>
-          </div>
-        </a>
-      </div>
-      {/* Project Item ---------- */}
-      <div className="project project-two">
-        <a href="https://queensboro.com" target="_blank">
-          <img src={require('../../images/projects/queensboro.png')} />
-          <div className="project-inner">
-            <div className="project-info">
-              <h3>Queensboro Shirt Company</h3>
-              <p>
-                Designed and Developed aspects for Queensboro.com. Built with:
-                HTML5, CSS3, JavaScript, jQuery, and Bootstrap.
-              </p>
-              <span>View Site</span>
-            </div>
-          </div>
-        </a>
-      </div>
-      {/* Project Item ---------- */}
-      <div className="project project-two">
         <a href="https://travisfrazier.github.io/vue-drum-pad/" target="_blank">
           <img src={require('../../images/projects/mpc-kit.png')} />
           <div className="project-inner">
